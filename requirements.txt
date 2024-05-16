@@ -1,0 +1,10 @@
+flask
+openai
+pandas
+diffusers
+transformers
+scipy
+ftfy
+accelerate
+invisible_watermark
+safetensors
