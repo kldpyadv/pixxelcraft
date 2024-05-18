@@ -2,7 +2,7 @@
 FROM python:3.10
 
 # making directory of app
-WORKDIR langchain-rag-app
+WORKDIR pixxelcraft
 
 # copy of requirements file
 COPY requirements.txt ./requirements.txt
@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 8501
 
 # command to launch app
-CMD streamlit run app.py
+CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0"]
